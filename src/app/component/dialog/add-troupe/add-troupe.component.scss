@@ -1,0 +1,13 @@
+.container{
+    padding: 10px;
+    ngx-dropzone{
+        max-width: 300px;
+        background-color: #354152;
+        overflow: scroll;
+        border: none;
+        margin-top: 10px;
+        ngx-dropzone-label{
+            color: white; 
+        }
+      }
+}
